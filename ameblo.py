@@ -13,7 +13,7 @@ class Ameblo:
     def login(self):
         try:
             data = {
-                "serviceId": "0",
+                "serviceId": "",
                 "amebaId": self.ameba_id,
                 "password": self.ameba_password,
                 "Submit.x":	"",
