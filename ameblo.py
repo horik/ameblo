@@ -16,8 +16,8 @@ class Ameblo:
                 "serviceId": "",
                 "amebaId": self.ameba_id,
                 "password": self.ameba_password,
-                "Submit.x":	"",
-                "Submit.y":	""}
+                "Submit.x": "",
+                "Submit.y": ""}
             self.session.post("http://www.ameba.jp/login.do", data=data)
         except:
             print("ログインエラー")
